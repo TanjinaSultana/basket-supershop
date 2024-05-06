@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.10.3/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+        <script>
+            tailwind.config = {
+              theme: {
+                extend: {
+                  colors: {
+                    clifford: '#da373d',
+                  }
+                }
+              }
+            }
+          </script>
+</head>
+<body>
+    <div class="hero min-h-screen bg-black-50" style="background: url(./t.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    "  >
+        <div class="hero-content flex-col lg:flex-row-reverse">
+          <div class="text-center lg:text-left">
+           
+          </div>
+          <div class="card shrink-0 w-[500px] shadow-2xl " style="background-color: rgba(236, 230, 230, 0.3); 
+          " 
+          >
+            <form class="card-body">
+              <div class="form-control">
+                <label class="label">
+                  <span class="label-text">First Name</span>
+                </label>
+                <input type="Fname" placeholder="First Name" class="input input-bordered" required />
+              </div>
+              <div class="form-control">
+                <label class="label">
+                  <span class="label-text">Last Name</span>
+                </label>
+                <input type="Lname" placeholder="Last Name" class="input input-bordered" required />
+              </div>
+              <div class="form-control">
+                <label class="label">
+                  <span class="label-text">Email</span>
+                </label>
+                <input type="email" placeholder="email" class="input input-bordered" required />
+              </div>
+              <div class="form-control">
+                <label class="label">
+                  <span class="label-text">DOB</span>
+                </label>
+                <input type="number" placeholder="Date Of Birth" class="input input-bordered" required />
+              </div>
+              <div class="form-control">
+                <label class="label">
+                  <span class="label-text">Password</span>
+                </label>
+                <input type="password" placeholder="password" class="input input-bordered" required />
+               
+              </div>
+              <div class="form-control">
+                <label class="label">
+                  <span class="label-text">Confirm Password</span>
+                </label>
+                <input type="password" placeholder="Confirm Password" class="input input-bordered" required />
+               
+              </div>
+              <div>
+                  <p class="label-text-alt link link-hover">Already have an account? 
+                    <a type="button" class="bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 ... p-3 rounded-lg px-6" href="login.html">
+                        Login
+                    </a>
+                </p>
+              </div>
+              <div class="form-control mt-6">
+                <button class="btn bg-gradient-to-r from-orange-500 via-purple-500 to-pink-500 ... text-[white]">Create</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+</body>
+</html>
